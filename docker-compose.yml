@@ -1,0 +1,9 @@
+services:
+  main-page:
+    image: nginx:latest
+    container_name: main-page
+    volumes:
+      - ./src:/usr/share/nginx/html
+    ports:
+      - 82:80
+    restart: always

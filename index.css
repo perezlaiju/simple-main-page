@@ -1,0 +1,48 @@
+/* index.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    color: #cccccc;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    margin-top: 1.25rem;
+}
+
+.social-link {
+    margin: 0 0.8rem;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 2.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
